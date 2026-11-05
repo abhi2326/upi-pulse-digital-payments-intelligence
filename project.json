@@ -1,0 +1,32 @@
+{
+  "id": "01",
+  "role": "Data Analyst",
+  "slug": "upi-pulse-digital-payments-intelligence",
+  "title": "UPI Pulse: India's Digital Payments Intelligence Platform",
+  "problem": "Understand payment success, failure reasons, merchant performance, customer cohorts and revenue leakage across a simulated UPI ecosystem.",
+  "market": "India",
+  "kind": "da",
+  "domain": "payments",
+  "stack": [
+    "SQL",
+    "Python",
+    "Pandas",
+    "Power BI",
+    "DAX",
+    "Streamlit",
+    "Plotly"
+  ],
+  "kpis": [
+    "Payment success rate",
+    "Failure rate by bank / PSP",
+    "Merchant TPV",
+    "Repeat payer rate",
+    "Failure value at risk"
+  ],
+  "impact": "Helps a payments operations team prioritise failure hotspots, identify high-value merchant segments and reduce avoidable payment friction.",
+  "sources": [
+    "NPCI UPI product statistics (public aggregate context)",
+    "RBI payment system indicators",
+    "Synthetic transaction-level demo data"
+  ]
+}
